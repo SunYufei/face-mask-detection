@@ -1,5 +1,5 @@
-# -*- encoding=utf-8
 import numpy as np
+
 
 def single_class_non_max_suppression(bboxes, confidences, conf_thresh=0.2, iou_thresh=0.5, keep_top_k=-1):
     '''
